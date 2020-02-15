@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: basic_es_demo
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+      cluster-nodes: 112.74.43.136:9300
+
+server:
+  port: 9090
+
